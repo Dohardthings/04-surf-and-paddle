@@ -1,63 +1,61 @@
-
 * {
-box-sizing: border-box;}
+  box-sizing: border-box;
+}
 *::before, *::after {
   box-sizing: inherit;
 }
-
 body {
   font-size: 16px;
   margin: 0;
   font-family: sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 header {
-background-image: url(https://www.fillmurray.com/1220/270);
-color: #5fe329;
-}
-.navbar-parent {
-
+  background-image: url(https://www.fillmurray.com/1220/270);
+  color: #5fe329;
 }
 .navbar {
-font-size: .5rem;
-display: flex;
+  font-size: .5rem;
+  display: flex;
+}
+.blog-logo__murray {
+  border-radius: 50%;
 }
 .bill__write {
   position: absolute;
-    left: 2rem;
-    top: .4rem;
-}
-.navbar__logo {
-
-}
-.blog-logo {
-
-}
-p {
-
+  left: 2rem;
+  top: .4rem;
 }
 .navbar__links {
   position: absolute;
-      right: .0rem;
-}
-.about {
-
-}
-.search {
-
-}
-.hourglass {
-
+  right: .0rem;
+  font-size: 1rem;
 }
 .hero {
-padding: 5rem;
+  padding: 5rem;
 }
-h1 {
+.surf {
   display: flex;
-      justify-content: center;
-      margin: 0;
+  justify-content: center;
+  margin: 0;
 }
-h6 {
+.fall__2016 {
   display: flex;
-      justify-content: center;
-      margin-top: 0;
+  justify-content: center;
+  margin-top: 0;
+}
+.main__content {
+  display: flex;
+  flex-grow: 1;
+}
+.right__article {
+  background: red;
+}
+.left__article {
+  background: green;
+}
+.footer {
+  background: purple;
 }
