@@ -22,6 +22,10 @@ header {
 }
 .blog-logo__murray {
   border-radius: 50%;
+  opacity: .4;
+}
+.blog-logo__murray:hover {
+  opacity: 1;
 }
 .bill__write {
   position: absolute;
@@ -52,9 +56,41 @@ header {
 }
 .right__article {
   background: red;
+
 }
 .left__article {
-  background: green;
+  background: white;
+}
+.headline {
+font-size: 3rem;
+color: #315ddf;
+}
+.under__headline {
+color: #a3a0a6;
+display: flex;
+align-items: flex-end;
+font-size: .7rem;
+
+}
+.segal {
+  border-radius: 50%;
+}
+.the__hoff {
+  color: #2c7a9c;
+
+}
+.date {
+padding-left: 3rem;
+}
+.lorem__1 {
+font-size: .8rem;
+}
+.crazy__quote {
+color: #5ebab7;
+font-size: 2rem;
+}
+.lorem__2 {
+font-size: .8rem;
 }
 .footer {
   background: purple;
