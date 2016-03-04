@@ -22,20 +22,20 @@ header {
 }
 .blog-logo__murray {
   border-radius: 50%;
-  opacity: .4;
+  margin-left: 2rem;
 }
-.blog-logo__murray:hover {
-  opacity: 1;
-}
+
 .bill__write {
   position: absolute;
   left: 2rem;
   top: .4rem;
+  padding-left: 2rem;
 }
 .navbar__links {
   position: absolute;
   right: .0rem;
   font-size: 1rem;
+  padding-right: 2rem;
 }
 .search {
   padding-left: 1rem;
