@@ -56,6 +56,27 @@ header {
 }
 .right__article {
   background: red;
+  max-width: 40%;
+}
+.author__image {
+
+}
+.author__name {
+
+}
+.author__sociallinks {
+
+}
+.ad__image {
+
+}
+.ad__link{
+
+}
+.sidebar__2nd__article__link {
+
+}
+.sidebar__2nd__article__short {
 
 }
 .left__article {
