@@ -53,25 +53,49 @@ header {
 .main__content {
   display: flex;
   flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 .right__article {
-  background: red;
+  background: white;
   max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 6rem;
+}
+.segall__face {
+  border-radius: 50%;
 }
 .author__image {
-
+  display: flex;
+    justify-content: center;
 }
-.author__name {
 
+.author__name {
+font-size: .6rem;
+display: flex;
+  justify-content: center;
+  color: #2c7a9c;
 }
 .author__sociallinks {
-
+font-size: .5rem;
+display: flex;
+justify-content: space-around;
 }
 .ad__image {
 
 }
 .ad__link{
+font-size: .6rem;
+color: lightgrey;
+display: flex;
+    align-self: flex-end;
+    margin-top: 0;
+    margin-bottom: 3rem;
 
+}
+.grey__link {
+  color: #bfc3c8;
 }
 .sidebar__2nd__article__link {
 
@@ -81,9 +105,13 @@ header {
 }
 .left__article {
   background: white;
+  width: 50%;
+    min-width: 37rem;
+    flex-shrink: 0;
+    margin-top: 3rem;
 }
 .headline {
-font-size: 3rem;
+font-size: 2.5rem;
 color: #315ddf;
 }
 .under__headline {
@@ -109,6 +137,8 @@ font-size: .8rem;
 .crazy__quote {
 color: #5ebab7;
 font-size: 2rem;
+border-left: .0625rem solid #5ebab7;
+padding-left: 2rem;
 }
 .lorem__2 {
 font-size: .8rem;
