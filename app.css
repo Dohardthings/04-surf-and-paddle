@@ -55,7 +55,8 @@ header {
 
 }
 .hero {
-  padding: 5rem;
+  padding: 3rem;
+  font-size: 2rem;
 }
 .surf {
   display: flex;
