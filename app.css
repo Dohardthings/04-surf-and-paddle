@@ -21,6 +21,7 @@ body {
 header {
   background-image: url(https://www.fillmurray.com/1220/270);
   color: #ed5015;
+  background-position: center center;
 }
 .navbar-parent {
   display: block;
