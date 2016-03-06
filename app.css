@@ -19,9 +19,10 @@ body {
 }
 
 header {
-  background-image: url(https://www.fillmurray.com/1220/270);
+  background-image: url(http://www.surftravel.com.au/surftravel/cache/file/20598B2D-9EED-209F-9E052F8313895977_carouselimage.jpg);
   color: #ed5015;
   background-position: center center;
+
 }
 .navbar-parent {
   display: block;
@@ -55,8 +56,9 @@ header {
 
 }
 .hero {
-  padding: 3rem;
+  padding: 2.6rem;
   font-size: 2rem;
+  font-family: "fantasy";
 }
 .surf {
   display: flex;
@@ -102,6 +104,16 @@ header {
   font-size: .8rem;
   display: flex;
   justify-content: space-around;
+  color: lightgrey;
+}
+.twitter__link:visited {
+  color: lightgrey;
+}
+.facebook__link:visited {
+  color: lightgrey;
+}
+.instagram__link:visited {
+  color: lightgrey;
 }
 .ad__image {}
 .steven__image {
@@ -175,7 +187,8 @@ header {
   font-size: 3rem;
   display: flex;
   justify-content: center;
-  color: #5ebab7;
+  color: #051faa;
+  font-family: "railway";
 }
 .footer__otherposts {
   display: flex;
