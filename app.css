@@ -22,7 +22,7 @@ header {
   background-image: url(http://www.surftravel.com.au/surftravel/cache/file/20598B2D-9EED-209F-9E052F8313895977_carouselimage.jpg);
   color: #ed5015;
   background-position: center center;
-
+background-size: cover;
 }
 .navbar-parent {
   display: block;
