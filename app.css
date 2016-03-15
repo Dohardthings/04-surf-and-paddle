@@ -6,7 +6,7 @@
 }
 body {
   font-size: 16px;
-  margin: 0;
+  margin: 2rem;
   font-family: sans-serif;
   min-height: 100vh;
   display: flex;
@@ -81,9 +81,10 @@ background-size: cover;
 
 .right__article {
   background: white;
-  width: 50%;
+  width: 13%;
   display: flex;
   flex-direction: column;
+  margin: 3rem;
   margin-top: 6rem;
   flex-grow: 1;
 }
@@ -101,7 +102,7 @@ background-size: cover;
   color: #2c7a9c;
 }
 .author__sociallinks {
-  font-size: .8rem;
+  font-size: .5rem;
   display: flex;
   justify-content: space-around;
   color: lightgrey;
@@ -192,7 +193,8 @@ background-size: cover;
 }
 .footer__otherposts {
   display: flex;
-  width: 100vw;
+  justify-content: space-around;
+  width: 100%;
   position: relative;
 }
 .otherpost {
@@ -227,16 +229,23 @@ background-size: cover;
 }
 .footer__navbar {
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background: #77a9dd;
 }
+
 .footer__navbar__logolegal {
   display: flex;
   align-items: center;
   color: white;
 }
-.footer__navbar__logo__legal {
+.footer__navbar__logolegal {
   font-size: .6rem;
+
 }
+ .footer__navbar__nav__items {
+
+   font-size: .7rem;
+ }
