@@ -6,7 +6,6 @@
 }
 body {
   font-size: 16px;
-  margin: 2rem;
   font-family: sans-serif;
   min-height: 100vh;
   display: flex;
@@ -50,10 +49,11 @@ background-size: cover;
   padding-left: 1rem;
 }
 .both__navbars {
-
+  display: flex;
+  align-items: center;
 }
 .murray__wrote {
-
+margin-top: .5rem;
 }
 .hero {
   padding: 2.6rem;
@@ -72,6 +72,7 @@ background-size: cover;
 }
 .main__content {
   flex-grow: 1;
+  margin: 2rem;
 }
 
 .row {
@@ -202,6 +203,7 @@ background-size: cover;
 }
 .pic {
   width: 100%;
+  display: block;
 }
 .stuff {
   font-size: 1.5rem;
@@ -246,6 +248,5 @@ background-size: cover;
 
 }
  .footer__navbar__nav__items {
-
    font-size: .7rem;
  }
