@@ -10,11 +10,11 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  margin: 0;
+  margin: auto;
 }
 
 .shrinker {
-  width: 90%;
+  max-width: 60rem;
   margin: auto;
 }
 
@@ -88,6 +88,7 @@ margin-top: .5rem;
   flex-direction: column;
   margin: 3rem;
   margin-top: 6rem;
+  margin-right: 0;
   flex-grow: 1;
 }
 .segall__face {
@@ -231,12 +232,17 @@ margin-top: .5rem;
   bottom: 3rem;
 }
 .footer__navbar {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
   background: #77a9dd;
+  width: 100%;
+}
+
+.footer__navbar__width {
+  max-width: 60rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
 }
 
 .footer__navbar__logolegal {
