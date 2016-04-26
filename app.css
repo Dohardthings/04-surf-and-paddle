@@ -1,15 +1,259 @@
-body {
-  margin: 0;
-}
-
 * {
-box-sizing: border-box;}
+  box-sizing: border-box;
+}
 *::before, *::after {
   box-sizing: inherit;
 }
-
 body {
   font-size: 16px;
-  margin: 0;
   font-family: sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }
+
+.shrinker {
+  max-width: 60rem;
+  margin: auto;
+}
+
+header {
+  background-image: url(http://www.surftravel.com.au/surftravel/cache/file/20598B2D-9EED-209F-9E052F8313895977_carouselimage.jpg);
+  color: #ed5015;
+  background-position: center center;
+background-size: cover;
+}
+.navbar-parent {
+  display: block;
+}
+.navbar {
+  font-size: .5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.blog-logo__murray {
+  border-radius: 50%;
+
+  float: left;
+}
+.bill__write {
+  padding-left: 1rem;
+}
+.navbar__links {
+
+  font-size: 1rem;
+
+  float: right;
+}
+.search {
+  padding-left: 1rem;
+}
+.both__navbars {
+  display: flex;
+  align-items: center;
+}
+.murray__wrote {
+margin-top: .5rem;
+}
+.hero {
+  padding: 2.6rem;
+  font-size: 2rem;
+  font-family: "fantasy";
+}
+.surf {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.fall__2016 {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+.main__content {
+  flex-grow: 1;
+  margin: 2rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.right__article {
+  background: white;
+  width: 13%;
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
+  margin-top: 6rem;
+  margin-right: 0;
+  flex-grow: 1;
+}
+.segall__face {
+  border-radius: 50%;
+}
+.author__image {
+  display: flex;
+  justify-content: center;
+}
+.author__name {
+  font-size: .6rem;
+  display: flex;
+  justify-content: center;
+  color: #2c7a9c;
+}
+.author__sociallinks {
+  font-size: .5rem;
+  display: flex;
+  justify-content: space-around;
+  color: lightgrey;
+}
+.twitter__link:visited {
+  color: lightgrey;
+}
+.facebook__link:visited {
+  color: lightgrey;
+}
+.instagram__link:visited {
+  color: lightgrey;
+}
+.ad__image {}
+.steven__image {
+  width: 100%;
+}
+.ad__link {
+  font-size: .6rem;
+  color: lightgrey;
+  display: flex;
+  align-self: flex-end;
+  margin-top: 0;
+  margin-bottom: 3rem;
+}
+.grey__link {
+  color: #bfc3c8;
+}
+.sidebar__2nd__article__link {
+  color: #1662bb;
+  font-size: 1rem;
+  width: 100%;
+}
+.sidebar__2nd__article__short {
+  font-size: .5rem;
+  color: #a3a0a6;
+  width: 100%
+}
+.left__article {
+  background: white;
+  width: 50%;
+  min-width: 15rem;
+  flex-shrink: 0;
+  flex-grow: 1;
+  margin-top: 3rem;
+}
+.headline {
+  font-size: 2.5rem;
+  color: #315ddf;
+}
+.under__headline {
+  color: #a3a0a6;
+  display: flex;
+  align-items: flex-end;
+  font-size: .7rem;
+}
+.segal {
+  border-radius: 50%;
+}
+.the__hoff {
+  color: #2c7a9c;
+}
+.date {
+  padding-left: 3rem;
+}
+.lorem__1 {
+  font-size: .8rem;
+}
+.crazy__quote {
+  color: #5ebab7;
+  font-size: 2rem;
+  border-left: .0625rem solid #5ebab7;
+  padding-left: 2rem;
+}
+.lorem__2 {
+  font-size: .8rem;
+}
+.footer {
+  background: white;
+  width: 100vw border-top: .0625rem solid lightgrey;
+}
+.footer__heading {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  color: #051faa;
+  font-family: "railway";
+}
+.footer__otherposts {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  position: relative;
+}
+.otherpost {
+  width: 100%;
+}
+.pic {
+  width: 100%;
+  display: block;
+}
+.stuff {
+  font-size: 1.5rem;
+  color: white;
+  position: absolute;
+  bottom: 3rem;
+}
+.things {
+  font-size: 1.5rem;
+  color: white;
+  position: absolute;
+  bottom: 3rem;
+}
+.whatnot {
+  font-size: 1.5rem;
+  color: white;
+  position: absolute;
+  bottom: 3rem;
+}
+.wurds {
+  font-size: 1.5rem;
+  color: white;
+  position: absolute;
+  bottom: 3rem;
+}
+.footer__navbar {
+  background: #77a9dd;
+  width: 100%;
+}
+
+.footer__navbar__width {
+  max-width: 60rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.footer__navbar__logolegal {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.footer__navbar__logolegal {
+  font-size: .6rem;
+
+}
+ .footer__navbar__nav__items {
+   font-size: .7rem;
+ }
